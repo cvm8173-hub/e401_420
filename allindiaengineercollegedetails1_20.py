@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/vidush-somany-institute-of-technology-and-research-kadi-65583",
-  "https://www.shiksha.com/college/lakhmi-chand-institute-of-technology-bilaspur-60105",
-  "https://www.shiksha.com/college/tadipatri-engineering-college-kadapa-61009",
-  "https://www.shiksha.com/college/techno-india-durgapur-61431",
-  "https://www.shiksha.com/university/shyam-university-dausa-65449",
-  "https://www.shiksha.com/college/university-institute-of-technology-alappuzha-alleppey-114385",
-  "https://www.shiksha.com/college/shri-ram-college-muzaffarnagar-119777",
-  "https://www.shiksha.com/college/college-of-engineering-and-technology-payyannur-kannur-60335",
-  "https://www.shiksha.com/college/lakshmi-narain-college-of-technology-and-science-indore-61921",
-  "https://www.shiksha.com/college/mangaldeep-college-of-engineering-aurangabad-228541",
-  "https://www.shiksha.com/college/mahakal-institute-of-technology-and-management-mitm-ujjain-28508",
-  "https://www.shiksha.com/college/shanti-niketan-college-of-engineering-hisar-44510",
-  "https://www.shiksha.com/college/chebrolu-engineering-college-guntur-61171",
-  "https://www.shiksha.com/college/college-of-engineering-and-technology-north-maharashtra-knowledge-city-jalgaon-66747",
-  "https://www.shiksha.com/college/shramshakti-college-of-agricultural-engineering-ahmednagar-66931",
-  "https://www.shiksha.com/university/mind-power-university-nainital-228457",
-  "https://www.shiksha.com/college/imperial-college-of-engineering-raigad-147729",
-  "https://www.shiksha.com/college/institute-of-technology-mumbai-189891",
-  "https://www.shiksha.com/college/college-of-engineering-br-ambedkar-univ-self-finance-srikakulam-60696",
-  "https://www.shiksha.com/college/millia-institute-of-technology-bihar-other-23321",
+  "https://www.shiksha.com/college/shree-institute-of-technical-education-tirupati-60969",
+  "https://www.shiksha.com/college/geethanjali-college-of-engineering-and-technology-kurnool-65187",
+  "https://www.shiksha.com/college/yaduvanshi-college-of-engineering-and-technology-haryana-mahendragarh-65387",
+  "https://www.shiksha.com/college/rishi-institute-of-engineering-and-technology-meerut-149103",
+  "https://www.shiksha.com/college/sree-venkateswara-engineering-college-mandal-andhra-pradesh-other-213515",
+  "https://www.shiksha.com/university/dravidian-university-andhra-pradesh-other-19965",
+  "https://www.shiksha.com/college/institute-of-technology-science-amrapali-group-of-institutions-haldwani-31372",
+  "https://www.shiksha.com/college/rcvs-college-of-engineering-rvscet-tamil-nadu-other-42696",
+  "https://www.shiksha.com/college/lingarajappa-engineering-college-bidar-59169",
+  "https://www.shiksha.com/college/m-k-college-of-engineering-and-technological-research-patan-60237",
+  "https://www.shiksha.com/college/gandhi-institute-of-science-and-technology-rayagada-61405",
+  "https://www.shiksha.com/college/dr-bhimrao-ambedkar-engineering-college-of-information-technology-uttar-pradesh-other-71531",
+  "https://www.shiksha.com/college/jijau-college-of-education-nanded-122611",
+  "https://www.shiksha.com/college/sirda-institute-of-engineering-and-technology-for-women-sundernagar-187841",
+  "https://www.shiksha.com/college/gnyana-saraswati-college-of-engineering-and-technology-nizamabad-46517",
+  "https://www.shiksha.com/university/sant-gahira-guru-vishwavidyalaya-chhattisgarh-other-57063",
+  "https://www.shiksha.com/college/siddhi-vinayak-college-of-science-and-higher-education-alwar-145359",
+  "https://www.shiksha.com/college/college-of-agriculture-biotechnology-saralgaon-thane-153927",
+  "https://www.shiksha.com/college/nalanda-institute-of-engineering-technology-niet-guntur-20702",
+  "https://www.shiksha.com/college/believers-church-caarmel-engineering-college-pathanamthitta-31059",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1701
+    c_count = 2121
 
     try:
         for base_url in BASE_URL:
