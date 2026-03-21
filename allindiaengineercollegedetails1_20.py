@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/shree-institute-of-technical-education-tirupati-60969",
-  "https://www.shiksha.com/college/geethanjali-college-of-engineering-and-technology-kurnool-65187",
-  "https://www.shiksha.com/college/yaduvanshi-college-of-engineering-and-technology-haryana-mahendragarh-65387",
-  "https://www.shiksha.com/college/rishi-institute-of-engineering-and-technology-meerut-149103",
-  "https://www.shiksha.com/college/sree-venkateswara-engineering-college-mandal-andhra-pradesh-other-213515",
-  "https://www.shiksha.com/university/dravidian-university-andhra-pradesh-other-19965",
-  "https://www.shiksha.com/college/institute-of-technology-science-amrapali-group-of-institutions-haldwani-31372",
-  "https://www.shiksha.com/college/rcvs-college-of-engineering-rvscet-tamil-nadu-other-42696",
-  "https://www.shiksha.com/college/lingarajappa-engineering-college-bidar-59169",
-  "https://www.shiksha.com/college/m-k-college-of-engineering-and-technological-research-patan-60237",
-  "https://www.shiksha.com/college/gandhi-institute-of-science-and-technology-rayagada-61405",
-  "https://www.shiksha.com/college/dr-bhimrao-ambedkar-engineering-college-of-information-technology-uttar-pradesh-other-71531",
-  "https://www.shiksha.com/college/jijau-college-of-education-nanded-122611",
-  "https://www.shiksha.com/college/sirda-institute-of-engineering-and-technology-for-women-sundernagar-187841",
-  "https://www.shiksha.com/college/gnyana-saraswati-college-of-engineering-and-technology-nizamabad-46517",
-  "https://www.shiksha.com/university/sant-gahira-guru-vishwavidyalaya-chhattisgarh-other-57063",
-  "https://www.shiksha.com/college/siddhi-vinayak-college-of-science-and-higher-education-alwar-145359",
-  "https://www.shiksha.com/college/college-of-agriculture-biotechnology-saralgaon-thane-153927",
-  "https://www.shiksha.com/college/nalanda-institute-of-engineering-technology-niet-guntur-20702",
-  "https://www.shiksha.com/college/believers-church-caarmel-engineering-college-pathanamthitta-31059",
+  "https://www.shiksha.com/college/r-r-institute-of-medical-sciences-bangalore-210473",
+  "https://www.shiksha.com/college/hcg-cancer-centre-vadodara-214341",
+  "https://www.shiksha.com/college/vgm-gastrocentre-tamil-nadu-coimbatore-214471",
+  "https://www.shiksha.com/college/c-s-s-d-college-of-education-baghpat-231350",
+  "https://www.shiksha.com/college/new-college-of-pharmacy-kolhapur-231460",
+  "https://www.shiksha.com/college/hrishikesh-college-of-pharmaceutical-and-research-institute-jagdalpur-236360",
+  "https://www.shiksha.com/college/vits-college-of-pharmacy-satna-236620",
+  "https://www.shiksha.com/college/pearl-college-of-d-b-pharmacy-wardha-236742",
+  "https://www.shiksha.com/college/debi-college-of-pharmacy-nadia-237254",
+  "https://www.shiksha.com/college/tagore-mission-institute-of-pharmacy-west-bengal-other-237352",
+  "https://www.shiksha.com/college/rkm-institute-of-pharmacy-gujarat-other-237382",
+  "https://www.shiksha.com/college/jai-narain-college-of-pharmacy-bhopal-237412",
+  "https://www.shiksha.com/college/arya-college-of-pharmacy-rajasthan-other-237464",
+  "https://www.shiksha.com/college/agnihotri-institute-pharmacy-wardha-89139",
+  "https://www.shiksha.com/college/shree-bhairavnath-nisarga-mandal-s-d-pharmacy-college-maharashtra-other-89209",
+  "https://www.shiksha.com/college/maharani-ahilyabai-holkar-college-of-pharmacy-dhule-99389",
+  "https://www.shiksha.com/college/national-college-of-polytechnic-haryana-other-99619",
+  "https://www.shiksha.com/college/eram-college-barabanki-123305",
+  "https://www.shiksha.com/college/om-sai-naath-college-of-pharmacy-sagar-147269",
+  "https://www.shiksha.com/college/slc-s-college-of-pharmacy-ranga-reddy-148565",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2121
+    c_count = 3801
 
     try:
         for base_url in BASE_URL:
