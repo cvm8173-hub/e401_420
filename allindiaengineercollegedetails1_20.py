@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/r-r-institute-of-medical-sciences-bangalore-210473",
-  "https://www.shiksha.com/college/hcg-cancer-centre-vadodara-214341",
-  "https://www.shiksha.com/college/vgm-gastrocentre-tamil-nadu-coimbatore-214471",
-  "https://www.shiksha.com/college/c-s-s-d-college-of-education-baghpat-231350",
-  "https://www.shiksha.com/college/new-college-of-pharmacy-kolhapur-231460",
-  "https://www.shiksha.com/college/hrishikesh-college-of-pharmaceutical-and-research-institute-jagdalpur-236360",
-  "https://www.shiksha.com/college/vits-college-of-pharmacy-satna-236620",
-  "https://www.shiksha.com/college/pearl-college-of-d-b-pharmacy-wardha-236742",
-  "https://www.shiksha.com/college/debi-college-of-pharmacy-nadia-237254",
-  "https://www.shiksha.com/college/tagore-mission-institute-of-pharmacy-west-bengal-other-237352",
-  "https://www.shiksha.com/college/rkm-institute-of-pharmacy-gujarat-other-237382",
-  "https://www.shiksha.com/college/jai-narain-college-of-pharmacy-bhopal-237412",
-  "https://www.shiksha.com/college/arya-college-of-pharmacy-rajasthan-other-237464",
-  "https://www.shiksha.com/college/agnihotri-institute-pharmacy-wardha-89139",
-  "https://www.shiksha.com/college/shree-bhairavnath-nisarga-mandal-s-d-pharmacy-college-maharashtra-other-89209",
-  "https://www.shiksha.com/college/maharani-ahilyabai-holkar-college-of-pharmacy-dhule-99389",
-  "https://www.shiksha.com/college/national-college-of-polytechnic-haryana-other-99619",
-  "https://www.shiksha.com/college/eram-college-barabanki-123305",
-  "https://www.shiksha.com/college/om-sai-naath-college-of-pharmacy-sagar-147269",
-  "https://www.shiksha.com/college/slc-s-college-of-pharmacy-ranga-reddy-148565",
+  "https://www.shiksha.com/college/c-l-gupta-eye-institute-moradabad-183013",
+  "https://www.shiksha.com/college/kvg-institute-of-physiotherapy-sullia-186553",
+  "https://www.shiksha.com/college/iq-city-institute-of-nursing-sciences-durgapur-196073",
+  "https://www.shiksha.com/college/dana-shivam-paramedical-college-jaipur-201285",
+  "https://www.shiksha.com/college/priyadarshni-institute-of-paramedical-sciences-thiruvananthapuram-208037",
+  "https://www.shiksha.com/college/government-ayurveda-college-bikaner-213539",
+  "https://www.shiksha.com/college/sudha-medical-college-hospital-kota-231836",
+  "https://www.shiksha.com/college/bangalore-city-college-kalyan-nagar-3163",
+  "https://www.shiksha.com/college/vision-institute-of-applied-studies-faridabad-118003",
+  "https://www.shiksha.com/college/hari-group-of-institutions-malhipur-road-saharanpur-138327",
+  "https://www.shiksha.com/college/rajputana-college-of-pharmacy-bangalore-146829",
+  "https://www.shiksha.com/college/s-i-n-p-s-janki-kund-chitrakut-satna-196545",
+  "https://www.shiksha.com/college/arush-physiotherapy-college-ahmedabad-197155",
+  "https://www.shiksha.com/college/swami-swatantranand-memorial-college-gurdaspur-75247",
+  "https://www.shiksha.com/college/bhanwar-lal-duggad-ayurveda-vishva-bharti-churu-87113",
+  "https://www.shiksha.com/college/pratishtha-institute-of-pharmaceutical-sciences-nalgonda-87799",
+  "https://www.shiksha.com/college/college-of-ayurvedic-pharmaceutical-sciences-mandi-88429",
+  "https://www.shiksha.com/college/government-polytechnic-college-uttarkashi-uttarakhand-other-96999",
+  "https://www.shiksha.com/college/govenrment-polytechnic-college-morni-panchkula-99539",
+  "https://www.shiksha.com/college/govt-college-for-women-gandhi-nagar-jammu-111435",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 3801
+    c_count = 2441
 
     try:
         for base_url in BASE_URL:
