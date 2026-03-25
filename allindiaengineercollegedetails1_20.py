@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/c-l-gupta-eye-institute-moradabad-183013",
-  "https://www.shiksha.com/college/kvg-institute-of-physiotherapy-sullia-186553",
-  "https://www.shiksha.com/college/iq-city-institute-of-nursing-sciences-durgapur-196073",
-  "https://www.shiksha.com/college/dana-shivam-paramedical-college-jaipur-201285",
-  "https://www.shiksha.com/college/priyadarshni-institute-of-paramedical-sciences-thiruvananthapuram-208037",
-  "https://www.shiksha.com/college/government-ayurveda-college-bikaner-213539",
-  "https://www.shiksha.com/college/sudha-medical-college-hospital-kota-231836",
-  "https://www.shiksha.com/college/bangalore-city-college-kalyan-nagar-3163",
-  "https://www.shiksha.com/college/vision-institute-of-applied-studies-faridabad-118003",
-  "https://www.shiksha.com/college/hari-group-of-institutions-malhipur-road-saharanpur-138327",
-  "https://www.shiksha.com/college/rajputana-college-of-pharmacy-bangalore-146829",
-  "https://www.shiksha.com/college/s-i-n-p-s-janki-kund-chitrakut-satna-196545",
-  "https://www.shiksha.com/college/arush-physiotherapy-college-ahmedabad-197155",
-  "https://www.shiksha.com/college/swami-swatantranand-memorial-college-gurdaspur-75247",
-  "https://www.shiksha.com/college/bhanwar-lal-duggad-ayurveda-vishva-bharti-churu-87113",
-  "https://www.shiksha.com/college/pratishtha-institute-of-pharmaceutical-sciences-nalgonda-87799",
-  "https://www.shiksha.com/college/college-of-ayurvedic-pharmaceutical-sciences-mandi-88429",
-  "https://www.shiksha.com/college/government-polytechnic-college-uttarkashi-uttarakhand-other-96999",
-  "https://www.shiksha.com/college/govenrment-polytechnic-college-morni-panchkula-99539",
-  "https://www.shiksha.com/college/govt-college-for-women-gandhi-nagar-jammu-111435",
+  "https://www.shiksha.com/college/esic-medical-college-and-hospital-ludhiana-244460",
+  "https://www.shiksha.com/college/goverment-medical-college-sheopur-244464",
+  "https://www.shiksha.com/university/manav-bharti-university-solan-38094",
+  "https://www.shiksha.com/college/rathnam-institute-of-pharmacy-nellore-61045",
+  "https://www.shiksha.com/college/kdmg-s-homoeopathic-medical-college-and-hospital-shirpur-70101",
+  "https://www.shiksha.com/college/institute-of-post-graduate-ayurvedic-education-and-research-kolkata-87073",
+  "https://www.shiksha.com/college/smt-s-m-dev-homeopathic-medical-college-balaghat-87217",
+  "https://www.shiksha.com/college/satkaival-college-of-pharmacy-anand-88557",
+  "https://www.shiksha.com/college/shree-mahavir-health-and-medical-relief-society-hospital-surat-105995",
+  "https://www.shiksha.com/college/chaitanya-college-of-pharmacy-education-and-research-warangal-194209",
+  "https://www.shiksha.com/college/blue-wheel-institute-of-nursing-sciences-nayagarh-200763",
+  "https://www.shiksha.com/college/icri-jehangir-hospital-pune-sangamvadi-204989",
+  "https://www.shiksha.com/college/dr-ithape-institute-of-d-pharmacy-sangamner-maharashtra-other-213483",
+  "https://www.shiksha.com/college/veena-sudhakar-ojha-college-of-pharmacy-barabanki-181683",
+  "https://www.shiksha.com/college/kasthooribha-gandhi-pharmacy-college-namakkal-193531",
+  "https://www.shiksha.com/college/susruta-school-of-optometry-and-visual-sciences-kochi-194733",
+  "https://www.shiksha.com/college/excel-polytechnic-college-excel-group-institutions-namakkal-212303",
+  "https://www.shiksha.com/college/excel-siddha-medical-college-and-research-centre-excel-group-institutions-namakkal-212317",
+  "https://www.shiksha.com/provider/swayam-226721",
+  "https://www.shiksha.com/college/kshudiram-bose-college-of-pharmacy-west-bengal-other-237294",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2441
+    c_count = 2841
 
     try:
         for base_url in BASE_URL:
